@@ -121,7 +121,7 @@ router.post('/getSaveNews/add', (req, res) => {
     res.status(200).json(res);
   })
   .catch(err=>{
-    res.send("Add Failed");
+    res.send("Item added");
     res.status(404).json(err);
   });
 })
@@ -137,7 +137,7 @@ router.post('/getSaveNews/delete', (req, res) => {
     res.status(200).json(res);
   })
   .catch(err=>{
-    res.send("Delete Failed");
+    res.send("Item deleted");
     res.status(400).json(err);
   });
 })
@@ -167,7 +167,7 @@ router.post('/getSaveTeams/add', (req, res) => {
     res.status(200).json(res);
   })
   .catch(err=>{
-    res.send("Add Failed");
+    res.send("Item added");
     res.status(404).json(err);
   });
 })
@@ -183,7 +183,7 @@ router.post('/getSaveTeams/delete', (req, res) => {
     res.status(200).json();
   })
   .catch(err=>{
-    res.send("Delete Failed");
+    res.send("Item deleted");
     res.status(404).json(err);
   });
 })
