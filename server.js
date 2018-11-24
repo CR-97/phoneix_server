@@ -44,7 +44,7 @@ app.use(scorer);
 app.use(Users);
 
 /*----------- News Api Get -------------*/
-const apiKey = '8a331e64c829479b91bbb3c54b0b4d9f';
+const apiKey = '1f6d73f2182140c199a4accba1194b89';
 const url = `https://newsapi.org/v2/top-headlines?sources=four-four-two&apiKey=${apiKey}`;
 const url2 = `https://newsapi.org/v2/top-headlines?sources=football-italia&apiKey=${apiKey}`;
 const url3 = `https://newsapi.org/v2/top-headlines?sources=talksport&apiKey=${apiKey}`;
